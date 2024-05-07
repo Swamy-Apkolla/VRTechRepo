@@ -17,6 +17,7 @@ import { PricingSectionComponent } from './pricing-section/pricing-section.compo
 import { FaqSectionComponent } from './faq-section/faq-section.component';
 import { TestimonialsSectionComponent } from './testimonials-section/testimonials-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule // Import FormsModule here
   ],
   providers: [],
   bootstrap: [AppComponent],
