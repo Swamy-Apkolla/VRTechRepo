@@ -18,6 +18,9 @@ import { FaqSectionComponent } from './faq-section/faq-section.component';
 import { TestimonialsSectionComponent } from './testimonials-section/testimonials-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FormsModule } from '@angular/forms';
+import { LaptopMacbookRepairComponent } from './laptop-macbook-repair/laptop-macbook-repair.component';
+import { VirusSpywareMalwareRemovalComponent } from './virus-spyware-malware-removal/virus-spyware-malware-removal.component';
+import { ComputerRepairsComponent } from './computer-repairs/computer-repairs.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { FormsModule } from '@angular/forms';
     PricingSectionComponent,
     FaqSectionComponent,
     TestimonialsSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    LaptopMacbookRepairComponent,
+    VirusSpywareMalwareRemovalComponent,
+    ComputerRepairsComponent
   ],
   imports: [
     BrowserModule,
